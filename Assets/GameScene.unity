@@ -539,6 +539,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cf08afa3a8f206479a09c010a0b111f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1333320727 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 1355a58c3bd9c40679bea54b926e0179, type: 2}
+  m_PrefabInternal: {fileID: 1994840688}
 --- !u!82 &1333320728
 AudioSource:
   m_ObjectHideFlags: 0
@@ -989,6 +993,52 @@ Prefab:
     - {fileID: 11400000, guid: 1355a58c3bd9c40679bea54b926e0179, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 1355a58c3bd9c40679bea54b926e0179, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2078159721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1438349611398680, guid: f9b54a51beb3e3d49b137079325960a5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2078159722}
+  - component: {fileID: 2078159723}
+  m_Layer: 0
+  m_Name: Uni
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2078159722
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4163038216377236, guid: f9b54a51beb3e3d49b137079325960a5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2078159721}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.13, y: -0.32, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1333320727}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2078159723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114417125351774742, guid: f9b54a51beb3e3d49b137079325960a5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2078159721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8dc7c44e6e3c84a9a0d5cca9e6ca43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniPrefab: {fileID: 1209775632484422, guid: b0846bd0c7dd1eb41ada7adc76ef81ae, type: 2}
+  Uni: {fileID: 2078159722}
+  speed: 10
 --- !u!1 &2108648971
 GameObject:
   m_ObjectHideFlags: 0
