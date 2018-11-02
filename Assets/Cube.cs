@@ -19,5 +19,9 @@ public class Cube : MonoBehaviour {
         {
             GetComponent<AudioSource>().Play();
         }
+        if (other.gameObject.tag == "UniTag")
+        {
+            Destroy(other.gameObject);
+        }
     }
 }

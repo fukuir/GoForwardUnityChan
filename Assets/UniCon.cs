@@ -12,4 +12,11 @@ public class UniCon : MonoBehaviour {
 	void Update () {
 		
 	}
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "CubeTag")
+        {
+            Destroy(other.gameObject);
+        }
+    }
 }
